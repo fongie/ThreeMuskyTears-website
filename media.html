@@ -11,8 +11,8 @@
 		<meta name="viewport" content="width =device-width, initial-scale =1.0">
 		<meta name="description" content="Acoustic trio playing jazzy funk-pop (yeah!) mainly in Stockholm/Uppsala, with their fun setup of guitar/song, harmonica, and cajon.">
 	</head>
-	
-	<body id="wrapper">
+
+	<body>
 		<div id="header">
 			<header>
 				<a href="http://www.threemuskytears.se">
@@ -27,22 +27,35 @@
 				</nav>
 			</header>
 		</div>
-		
-		<section id="media">
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade"><img src="img/poster_borgen.jpg" style="width:100%"></div>
+			<div class="mySlides fade"><img src="img/poster_kings.jpg" style="width:100%"></div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+		</div>
+
+		<section id="movs">
 			<div class="youtube"><iframe src="https://www.youtube.com/embed/Zfw0LlX3XpM">Not supported, try another browser!</iframe></div>
 			<div class="youtube"><iframe src="https://www.youtube.com/embed/pyXRlzNtjfw">Not supported, try another browser!</iframe></div>
 		</section>
-		
+
+
+		<script src="js/slides.js"></script> <!--- SCRIPT TILL SLIDESHOW --->
+
 		<footer>
 			<a href="https://www.facebook.com/threemuskytears/"><img src="img/fb.jpg" alt="facebook-icon" class ="social-icon"></a>
 			<a href="mailto:info@threemuskytears.se"><img src="img/email.png" alt="email-icon" class ="social-icon"></a>
 			<p>&copy; 2016 Max Körlinge</p>
 		</footer>
-	
 	</body>
-
-
-
-
 
 </html>

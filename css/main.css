@@ -94,6 +94,7 @@ footer img.social-icon {
 PAGE: HOME
 =======================>*/
 
+
 #wrapper img {
 	border-radius: 40%;
 }
@@ -192,13 +193,6 @@ img.icon {
 PAGE: MEDIA
 =======================>*/
 
-
-/*
-iframe {
-	max-width: 95%;
-
-}
-*/
 /* YouTube Responsive CSS for HubSpot */
 
 .youtube {
@@ -222,7 +216,81 @@ height: 100%!important;
 
 } 
 
+/* Slideshow comes next: */
 
+/* Container */
+.slideshow-container {
+	max-height: 20%;
+	max-width: 95%;
+	position: relative;
+	margin: auto;
+}
+
+/* Styla bilderna lite.. kunde bara komma åt detta med den närmaste klassen dvs fade? */
+.fade img {
+	border-radius: 10%;
+}
+
+
+/* Next and previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s easy;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* Hover over button gives color */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Bullets at the bottom */
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s easy;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animatoin */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 /*=====================>

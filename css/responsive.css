@@ -1,0 +1,117 @@
+@media screen and (min-width: 480px) {
+	
+	
+	body {
+		font-size: 1em;
+	}
+
+/*=====================>
+TWO COLUMNS!
+=======================>*/
+
+/* mest contactsidan */
+	#primary {
+		max-width: 56%;
+		float: left;
+		margin: 0 0 10px 10px;
+	}
+	
+	#allman h3 {		/*denna skulle kunnas lägga innanför primary som jag gjort med secondary*/
+		text-align: left;
+		padding: 0 0 0 18%;
+	}
+	
+	#secondary {
+		max-width: 40%;
+		float: right;
+		margin: 0 10px 0 0;
+	}
+
+	
+}
+
+
+/*=====================>
+PAGE: TOUR COLUMNS
+=======================>*/
+
+@media screen and (min-width: 660px) and (max-width: 920px) {
+
+	table {
+		max-width: 100%;
+	}
+	
+	td, th {
+		padding: 4px;
+	}
+
+	#kommande {
+		max-width: 49%;
+		min-width: 45%;
+		float: left;
+		margin: 0 0 10px 8px;
+	}
+
+	#spelade {
+		max-width: 49%;
+		min-width: 45%;
+		float: right;
+		margin: 0 8px 0 0;
+	}
+	
+		
+	/*=====================>
+	PAGE: MEDIA
+	=======================>*/
+
+	
+}
+
+
+
+@media screen and (min-width: 920px) {
+	
+	body {
+		font-size: 1.1em;
+	}
+	
+	/* HEADERN PÅ VÄNSTRA SIDAN*/
+	header {
+		top: 0;
+		left: 0;
+		width: 45%;
+		position: absolute;
+		z-index: 3;
+	}
+	
+/*=====================>
+PAGE: HOME
+=======================>*/
+	
+	#mitten {
+		padding-left: 45%;
+		}
+	
+/*=====================>
+PAGE: TOUR
+=======================>*/
+
+	#tour-body {
+		padding-left: 45%;
+	}
+
+
+/*=====================>
+PAGE: CONTACT
+=======================>*/
+	
+	#contact-body {
+		padding-left: 45%;
+	}
+	
+	#media {
+		padding-left: 45%;
+	}
+	
+
+}

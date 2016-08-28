@@ -31,22 +31,22 @@ header {
 
 }
 
-#logo {		/*	TODO: GÖR LOGGABILDEN LITE MINDRE SÅ TEXTEN BLIR STÖRRE, DVS KAPA WHITESPACE*/
+#logo {		/*	TODO: Gï¿½R LOGGABILDEN LITE MINDRE Sï¿½ TEXTEN BLIR STï¿½RRE, DVS KAPA WHITESPACE*/
 	display: block;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	}
-	
+
 a {
 	text-decoration: none;
 	}
-	
+
 
 /*=====================>
 NAVIGATION
 =======================>*/
-	
+
 nav {
 	text-align: center;
 	padding: 10px 0;
@@ -214,7 +214,7 @@ left: 0;
 width: 100%!important;
 height: 100%!important;
 
-} 
+}
 
 /* Slideshow comes next: */
 
@@ -226,10 +226,11 @@ height: 100%!important;
 	margin: auto;
 }
 
-/* Styla bilderna lite.. kunde bara komma åt detta med den närmaste klassen dvs fade? */
-.fade img {
+/* Styla bilderna lite.. kunde bara komma ï¿½t detta med den nï¿½rmaste klassen dvs fade? */
+/*.fade img {
 	border-radius: 10%;
 }
+edit 20160828, helt obegripligt varfor detta gjordes*/
 
 
 /* Next and previous buttons */
@@ -310,11 +311,3 @@ footer {
 	background-color: #808080;
 	color: #dadada;
 }
-
-
-
-
-
-
-
-

@@ -120,17 +120,18 @@ PAGE: MEDIA
 		float: right;
 		width: 46%;
 		margin-top: 20px;
+		margin-right: 1.7%;
 	}
 
 
 	.vid1 {
-		width: 45%;
+		width: 49%;
 		float: left;
 		margin-top: 11.5%;
 	}
 
 	.vid2 {
-		width: 45%;
+		width: 49%;
 		float: right;
 		margin-right: 7px;
 	}

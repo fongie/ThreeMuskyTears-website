@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
-	
-	
+
+
 	body {
 		font-size: 1em;
 	}
@@ -15,19 +15,19 @@ TWO COLUMNS!
 		float: left;
 		margin: 0 0 10px 10px;
 	}
-	
-	#allman h3 {		/*denna skulle kunnas lägga innanför primary som jag gjort med secondary*/
+
+	#allman h3 {		/*denna skulle kunnas lï¿½gga innanfï¿½r primary som jag gjort med secondary*/
 		text-align: left;
 		padding: 0 0 0 18%;
 	}
-	
+
 	#secondary {
 		max-width: 40%;
 		float: right;
 		margin: 0 10px 0 0;
 	}
 
-	
+
 }
 
 
@@ -40,7 +40,7 @@ PAGE: TOUR COLUMNS
 	table {
 		max-width: 100%;
 	}
-	
+
 	td, th {
 		padding: 4px;
 	}
@@ -58,24 +58,17 @@ PAGE: TOUR COLUMNS
 		float: right;
 		margin: 0 8px 0 0;
 	}
-	
-		
-	/*=====================>
-	PAGE: MEDIA
-	=======================>*/
-
-	
 }
 
 
 
 @media screen and (min-width: 920px) {
-	
+
 	body {
 		font-size: 1.1em;
 	}
-	
-	/* HEADERN PÅ VÄNSTRA SIDAN*/
+
+	/* HEADERN Pï¿½ Vï¿½NSTRA SIDAN*/
 	header {
 		top: 0;
 		left: 0;
@@ -83,15 +76,16 @@ PAGE: TOUR COLUMNS
 		position: absolute;
 		z-index: 3;
 	}
-	
+
+
 /*=====================>
 PAGE: HOME
 =======================>*/
-	
+
 	#mitten {
 		padding-left: 45%;
 		}
-	
+
 /*=====================>
 PAGE: TOUR
 =======================>*/
@@ -104,14 +98,44 @@ PAGE: TOUR
 /*=====================>
 PAGE: CONTACT
 =======================>*/
-	
+
 	#contact-body {
 		padding-left: 45%;
 	}
-	
-	#media {
-		padding-left: 45%;
+
+/*=====================>
+PAGE: MEDIA
+=======================>*/
+
+	#mediawrapper header {
+		position: relative;
+		float: left;
+		width: 45%;
+		display: block;
+		margin-top: 5px;
 	}
-	
+
+	#mediawrapper .slide-big-container {
+		display: block;
+		float: right;
+		width: 46%;
+		margin-top: 20px;
+		margin-right: 1.7%;
+	}
+
+
+	.vid1 {
+		width: 49%;
+		float: left;
+		margin-top: 11.5%;
+	}
+
+	.vid2 {
+		width: 49%;
+		float: right;
+		margin-right: 7px;
+	}
+
+
 
 }

@@ -103,21 +103,38 @@ PAGE: CONTACT
 		padding-left: 45%;
 	}
 
-	#movs {
-		padding-left: 45%;
-	}
-
-
 /*=====================>
 PAGE: MEDIA
 =======================>*/
 
-	.slide-big-container {
-		width: 40%;
+	#mediawrapper header {
+		position: relative;
 		float: left;
-		padding-top: 25%;
-		margin-right: 0;
-		clear: right;
+		width: 45%;
+		display: block;
+		margin-top: 5px;
 	}
+
+	#mediawrapper .slide-big-container {
+		display: block;
+		float: right;
+		width: 46%;
+		margin-top: 20px;
+	}
+
+
+	.vid1 {
+		width: 45%;
+		float: left;
+		margin-top: 11.5%;
+	}
+
+	.vid2 {
+		width: 45%;
+		float: right;
+		margin-right: 7px;
+	}
+
+
 
 }

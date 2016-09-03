@@ -58,6 +58,11 @@ PAGE: TOUR COLUMNS
 		float: right;
 		margin: 0 8px 0 0;
 	}
+
+	footer {
+		margin-top: -100px;		/* messes up mobile version for some reason when scrolling needed*/
+	}
+
 }
 
 
@@ -77,6 +82,10 @@ PAGE: TOUR COLUMNS
 		z-index: 3;
 	}
 
+	footer {
+		margin-top: -100px; /* see above */
+	}
+
 
 /*=====================>
 PAGE: HOME
@@ -85,6 +94,11 @@ PAGE: HOME
 	#mitten {
 		padding-left: 45%;
 		}
+
+	#mitten img {
+		display: block;
+		width: 85%;
+	}
 
 /*=====================>
 PAGE: TOUR

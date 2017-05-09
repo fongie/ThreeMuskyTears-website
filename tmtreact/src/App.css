@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Short+Stack');
+
+
+
+a, a:visited {
+	color: #434343;
+}
+
+a.selected, a:hover {
+	color: #808080;
+}

@@ -3,7 +3,7 @@ import NavigationListItem from './NavigationListItem';
 
 class Navigation extends Component {
     render() {
-        var navigationStyling = {
+        const navigationStyling = {
             textDecoration: 'none',
             textAlign: 'center',
             paddingTop: 10,
@@ -11,7 +11,7 @@ class Navigation extends Component {
             fontFamily: 'Short Stack',
         }
 
-        var navigationListStyling = {
+        const navigationListStyling = {
             listStyle: 'none',
             paddingTop: 0,
             paddingBottom: 0,
@@ -22,11 +22,24 @@ class Navigation extends Component {
         return (
             <div style={navigationStyling}>
                 <nav>
-                    <ul style={navigationListStyling}/>
-                    <NavigationListItem name="Home" link="/"/>
-                    <NavigationListItem name="Tour" link="/tour"/>
-                    <NavigationListItem name="Media" link="/media"/>
-                    <NavigationListItem name="About" link="/about"/>
+                    <ul style={navigationListStyling}>
+                        <NavigationListItem 
+                            name="Home" 
+                            link="/"
+                        />
+                        <NavigationListItem 
+                            name="Tour" 
+                            link="/tour"
+                        />
+                        <NavigationListItem 
+                            name="Media" 
+                            link="/media"
+                        />
+                        <NavigationListItem 
+                            name="About" 
+                            link="/about"
+                        />
+                    </ul>
                 </nav>
             </div>
         );

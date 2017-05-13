@@ -5,7 +5,7 @@ import upcomingGigs from '../data/upcominggigs';
 
 class Tour extends Component {
     render() {
-        let tourLayout = {
+        const tourLayout = {
             display: 'flex',
             flexFlow: 'row wrap',
             justifyContent: 'center',

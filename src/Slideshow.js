@@ -33,7 +33,6 @@ class Slideshow extends Component {
         this.prevImage = this.prevImage.bind(this);
         this.nextImage = this.nextImage.bind(this);
     }
-
     changeSlides(nr) {
         const indexOutOfBounds = (this.state.currentIndex + nr < 0 || this.state.currentIndex + nr > this.props.objects.length-1);
         if (indexOutOfBounds) {
@@ -59,18 +58,44 @@ class Slideshow extends Component {
         if (this.props.type === 'image') {
             return (
                 <div style={this.state.slideshowStyling}>
-                    <SlideshowItem type='image' image={this.props.objects[this.state.currentIndex].image} style={this.props.objects[this.state.currentIndex].style} />
-                    <button style={this.state.buttonStyling} onClick={this.prevImage}>&#10094;</button>
-                    <button style={this.state.buttonStyling} onClick={this.nextImage}>&#10095;</button>
+                    <SlideshowItem 
+                        type='image' 
+                        image={this.props.objects[this.state.currentIndex].image} 
+                        style={this.props.objects[this.state.currentIndex].style} 
+                    />
+                    <button 
+                        style={this.state.buttonStyling} 
+                        onClick={this.prevImage}
+                    >
+                        &#10094;
+                    </button>
+                    <button 
+                        style={this.state.buttonStyling} 
+                        onClick={this.nextImage}
+                    >
+                        &#10095;
+                    </button>
                 </div>
             );
         } else if(this.props.type === 'youtube') {
             return (
-
                 <div style={this.state.slideshowStyling}>
-                    <SlideshowItem type='youtube' link={this.props.objects[this.state.currentIndex].link} />
-                    <button style={this.state.buttonStyling} onClick={this.prevImage}>&#10094;</button>
-                    <button style={this.state.buttonStyling} onClick={this.nextImage}>&#10095;</button>
+                    <SlideshowItem 
+                        type='youtube' 
+                        link={this.props.objects[this.state.currentIndex].link} 
+                    />
+                    <button 
+                        style={this.state.buttonStyling} 
+                        onClick={this.prevImage}
+                    >
+                        &#10094;
+                    </button>
+                    <button 
+                        style={this.state.buttonStyling} 
+                        onClick={this.nextImage}
+                    >
+                        &#10095;
+                    </button>
                 </div>
             );
         }
@@ -80,6 +105,11 @@ class Slideshow extends Component {
 Slideshow.propTypes = {
     type: PropTypes.string.isRequired,
     objects: PropTypes.object.isRequired,
+}
+
+Slideshow.defaultProps = {
+    link: '',
+    style: null,
 }
 
 export default Slideshow;

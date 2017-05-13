@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AboutBox from './AboutBox';
 
-class Contact extends Component {
+class About extends Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default About;

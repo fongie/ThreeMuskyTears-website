@@ -25,7 +25,11 @@ class SlideshowItem extends Component {
         if (this.props.type === 'image') {
             return (
                 <div className="fade">
-                    <img src={this.props.image} style={this.props.style} alt="Poster for an old three musky tears gig" />
+                    <img 
+                        src={this.props.image} 
+                        style={this.props.style} 
+                        alt="Poster for an old three musky tears gig" 
+                    />
                 </div>
             );
         } else if (this.props.type === 'youtube') {
@@ -37,8 +41,12 @@ class SlideshowItem extends Component {
 }
 
 SlideshowItem.propTypes = {
-    image: PropTypes.object.isRequired,
+    type: PropTypes.string.isRequired,
     style: PropTypes.object.isRequired,
+}
+SlideshowItem.defaultProps = {
+    image: null,
+    video: '',
 }
 
 export default SlideshowItem;

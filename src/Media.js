@@ -5,6 +5,7 @@ import posterKings from '../img/poster_kings.jpg';
 import posterCosteau from '../img/costeau.jpg';
 
 class Media extends Component {
+
     constructor(props) {
         super(props);
         const mediaStyling = {
@@ -12,6 +13,7 @@ class Media extends Component {
             flexFlow: 'row wrap',
             justifyContent: 'center',
         }
+
         this.state = {
             mediaStyling,
             slideshowImages: [
@@ -38,11 +40,18 @@ class Media extends Component {
             ]
         }
     }
+
     render() {
         return (
             <div style={this.state.mediaStyling}>
-                <Slideshow type='image' objects={this.state.slideshowImages} />
-                <Slideshow type='youtube' objects={this.state.youtubeVideos} />
+                <Slideshow 
+                    type="image" 
+                    objects={this.state.slideshowImages} 
+                />
+                <Slideshow 
+                    type="youtube" 
+                    objects={this.state.youtubeVideos} 
+                />
             </div>
         );
     }

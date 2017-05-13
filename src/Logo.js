@@ -4,15 +4,19 @@ import { Link } from 'react-router-dom';
 
 class Logo extends Component {
     render() {
-        var logoStyling = {
+        const logoStyling = {
             maxWidth: '100%',
             paddingTop: 20,
         };
         return (
             <div>
                 <Link to='/'>
-                <img src={logo} style={logoStyling}  alt="three musky tears band stockholm uppsala logo"/>
-            </Link>
+                    <img 
+                        src={logo} 
+                        style={logoStyling}  
+                        alt="three musky tears band stockholm uppsala logo"
+                    />
+                </Link>
             </div>
         );
     }

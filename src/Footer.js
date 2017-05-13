@@ -22,8 +22,20 @@ class Footer extends Component {
         }
         return (
             <div style={footerStyling}>
-                <a href="https://www.facebook.com/threemuskytears/"><img src={fbicon} alt="facebook-icon" style={socialIconStyling}/></a>
-                <a href="mailto:info@threemuskytears.se"><img src={emailicon} alt="email-icon" style={socialIconStyling}/></a>
+                <a href="https://www.facebook.com/threemuskytears/">
+                    <img 
+                        src={fbicon} 
+                        alt="facebook-icon" 
+                        style={socialIconStyling}
+                    />
+                </a>
+                <a href="mailto:info@threemuskytears.se">
+                    <img 
+                        src={emailicon} 
+                        alt="email-icon" 
+                        style={socialIconStyling}
+                    />
+                </a>
                 <CopyrightLink/>
             </div>
         );

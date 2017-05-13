@@ -25,7 +25,7 @@ class App extends Component {
         return (
             <div style={generalStyling}>
                 <div style={contentStyling}>
-                    <Header style={{order:1}} />
+                    <Header />
                     <div style={childrenStyling}>
                         {this.props.children}
                     </div>

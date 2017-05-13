@@ -13,7 +13,7 @@ class AboutBox extends Component {
             marginBottom: 10,
         }
         return (
-            <div style={ aboutBoxStyling }>
+            <div style={aboutBoxStyling}>
                 <h3>Allmän information:</h3>
                 <div>
                     <p />Three Musky Tears spelar en svängig blandning av jazz, funk, och pop. Trion bjuder på egna låtar med grymt ös och texter på svenska, och har även en stor repertoar med spännande covers.

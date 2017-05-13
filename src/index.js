@@ -5,7 +5,7 @@ import App from './App';
 import Home from './Home';
 import Tour from './Tour';
 import Media from './Media';
-import Contact from './Contact';
+import About from './About';
 import './index.css';
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
             <Route exact={true} path="/" component={Home} />
             <Route path="/home" component={Home} />
             <Route path="/tour" component={Tour} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/about" component={About} />
             <Route path="/media" component={Media} />
         </App>
     </Router>

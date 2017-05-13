@@ -4,7 +4,7 @@ import AboutBox from './AboutBox';
 class Contact extends Component {
     render() {
         return (
-            <div id="contact-body">
+            <div>
                 <AboutBox />
             </div>
         );

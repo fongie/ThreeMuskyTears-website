@@ -17,10 +17,8 @@ class TourTableBody extends Component {
             borderCollapse: 'collapse',
         }
         const tableStyling = {
-            maxWidth: '80%',
-            minWidth: '80%',
-            marginRight: 'auto',
-            marginLeft: 'auto',
+            marginRight: 10,
+            marginLeft: 10,
             marginBottom: 20,
             borderBottom: '1px solid black',
             borderCollapse: 'collapse',

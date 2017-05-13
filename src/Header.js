@@ -10,11 +10,12 @@ class Header extends Component {
             marginBottom: 30,
             paddingTop: 5,
             width: '700',
+            maxWidth: '100%',
         };
         return (
-            <div id="header" style={headerStyling}>
+            <div style={headerStyling}>
                 <Logo />
-                <Navigation/>
+                <Navigation />
             </div>
         );
     }

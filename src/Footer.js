@@ -21,7 +21,7 @@ class Footer extends Component {
             borderRadius: '30%',
         }
         return (
-            <div id="noscroll" style={footerStyling}>
+            <div style={footerStyling}>
                 <a href="https://www.facebook.com/threemuskytears/"><img src={fbicon} alt="facebook-icon" style={socialIconStyling}/></a>
                 <a href="mailto:info@threemuskytears.se"><img src={emailicon} alt="email-icon" style={socialIconStyling}/></a>
                 <CopyrightLink/>

@@ -20,13 +20,13 @@ class Navigation extends Component {
         }
 
         return (
-            <div id="navigation" style={navigationStyling}>
+            <div style={navigationStyling}>
                 <nav>
                     <ul style={navigationListStyling}/>
                     <NavigationListItem name="Home" link="/"/>
                     <NavigationListItem name="Tour" link="/tour"/>
                     <NavigationListItem name="Media" link="/media"/>
-                    <NavigationListItem name="Contact" link="/contact"/>
+                    <NavigationListItem name="About" link="/about"/>
                 </nav>
             </div>
         );

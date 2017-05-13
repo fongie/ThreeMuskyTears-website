@@ -5,18 +5,21 @@ import upcomingGigs from '../data/upcominggigs';
 
 class Tour extends Component {
     render() {
+        let tourLayout = {
+            display: 'flex',
+            flexFlow: 'row wrap',
+            justifyContent: 'center',
+        }
         return (
-            <div id="tour-body">
-                <section>
-                    <div id="kommande">
+            <div style={tourLayout}>
+                    <div>
                         <h4>Kommande</h4>
                         <TourTableBody inputData={upcomingGigs} />
                     </div>
-                    <div id="spelade">
+                    <div>
                         <h4>Spelade</h4>
                         <TourTableBody inputData={playedGigs} />
                     </div>
-                </section>
             </div>
         );
     }

@@ -11,24 +11,20 @@ class App extends Component {
             textAlign: 'center',
             display: 'flex',
             flexDirection: 'column',
+            maxWidth: '100%',
         }
-        const rowStyling = {
-            display: 'flex',
-            flexFlow: 'row wrap',
+        const contentStyling = {
             minHeight: '91vh',
         }
         const childrenStyling = {
-            order: 2,
             marginLeft: 'auto',
             marginRight: 'auto',
         }
         const footerStyling = {
-            order: 3,
-            alignSelf: 'flex-end',
         }
         return (
             <div style={generalStyling}>
-                <div style={rowStyling}>
+                <div style={contentStyling}>
                     <Header style={{order:1}} />
                     <div style={childrenStyling}>
                         {this.props.children}

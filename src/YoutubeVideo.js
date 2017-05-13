@@ -2,6 +2,10 @@ import qs from 'query-string';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
+/** An iframe containing a youtube video
+ *  This was adapted from code fetched at https://www.sitepoint.com/quick-tip-video-player-component-react/
+ * @props video The ID of the video on youtube. Required
+ */
 class YoutubeVideo extends Component {
     constructor(props) {
         super(props);

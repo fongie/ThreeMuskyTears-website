@@ -7,9 +7,8 @@ class Navigation extends Component {
             textDecoration: 'none',
             textAlign: 'center',
             paddingTop: 10,
-            marginTop: 20,
+            marginTop: 10,
             fontFamily: 'Short Stack',
-            zIndex: 3
         }
 
         var navigationListStyling = {

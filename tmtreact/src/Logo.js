@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import logo from '../img/TMTlogomindre.png';
+import logo from '../img/TMTlogomktmindre.png';
 
 class Logo extends Component {
     render() {
         var logoStyling = {
-            display: 'block',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            maxWidth: '100%'
+            maxWidth: '100%',
+            paddingTop: 20,
         };
         return (
             <div id="logo">

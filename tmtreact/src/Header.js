@@ -5,16 +5,15 @@ import Navigation from './Navigation';
 class Header extends Component {
 
     render() {
-        var headerStyling = {
-            float: 'left',
+        const headerStyling = {
+            margin: 'auto',
             marginBottom: 30,
             paddingTop: 5,
-            alignSelf: 'stretch',
-            width: '100%'
+            width: '700',
         };
         return (
             <div id="header" style={headerStyling}>
-                <Logo/>
+                <Logo />
                 <Navigation/>
             </div>
         );

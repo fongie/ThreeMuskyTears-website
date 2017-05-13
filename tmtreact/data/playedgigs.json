@@ -1,0 +1,75 @@
+[
+    {
+        "date": "03/12 2016",
+        "place": "Cousteau",
+        "city": "Uppsala",
+        "event": "https://www.facebook.com/events/214858735617336/"
+    },
+    {
+        "date": "29/10 2016",
+        "place": "Norrlands Nation",
+        "city": "Uppsala"
+    },
+    {
+        "date": "22/10 2016",
+        "place": "Borgen",
+        "city": "Uppsala"
+    },
+    {
+        "date": "8/9 2016",
+        "place": "Borgen",
+        "city": "Uppsala",
+        "event": "https://www.facebook.com/events/300722853641291/"
+    },
+    {
+        "date": "25/8 2016",
+        "place": "Botaniska Trädgården",
+        "city": "Uppsala"
+    },
+    {
+        "date": "17/6 2016",
+        "place": "King's Table",
+        "city": "Stockholm",
+        "event": "https://www.facebook.com/events/1156129114407406/"
+    },
+    {
+        "date": "15/6 2016",
+        "place": "Borgen",
+        "city": "Uppsala"
+    },
+    {
+        "date": "4/6 2016",
+        "place": "Borgen",
+        "city": "Uppsala"
+    },
+    {
+        "date": "27/5 2016",
+        "place": "Borgen",
+        "city": "Uppsala",
+        "event": "https://www.facebook.com/events/802731679828646/"
+    },
+    {
+        "date": "19/5 2016",
+        "place": "Cantina Real",
+        "city": "Stockholm",
+        "event": "https://www.facebook.com/events/1088966211165054/"
+    },
+    {
+        "date": "18/5 2016",
+        "place": "Borgen",
+        "city": "Uppsala",
+        "event": "https://www.facebook.com/events/1156129114407406/"
+    },
+    {
+        "date": "15/5 2016",
+        "place": "Borgen",
+        "city": "Uppsala",
+        "event": "https://www.facebook.com/events/1156129114407406/"
+    },
+    {
+        "date": "15/4 2016",
+        "place": "Broder Tuck",
+        "city": "Stockholm",
+        "event": "https://www.facebook.com/events/524190741114881"
+    }
+]

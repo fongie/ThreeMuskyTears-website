@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-
+import AboutBox from './AboutBox';
 
 class Contact extends Component {
     render() {
         return (
-            <p>Contact</p>
+            <div id="contact-body">
+                <AboutBox />
+            </div>
         );
     }
 }

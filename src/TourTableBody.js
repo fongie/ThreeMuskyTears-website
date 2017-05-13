@@ -8,6 +8,10 @@ import TourTableItem from './TourTableItem';
  * Note that additional styling for tr nth child is in App.css
  */
 
+const propTypes = {
+    inputData: PropTypes.array.isRequired,
+};
+
 class TourTableBody extends Component {
     constructor(props) {
         super(props);
@@ -93,8 +97,6 @@ class TourTableBody extends Component {
     }
 }
 
-TourTableBody.propTypes = {
-    inputData: PropTypes.array.isRequired,
-}
+TourTableBody.propTypes = propTypes;
 
 export default TourTableBody;

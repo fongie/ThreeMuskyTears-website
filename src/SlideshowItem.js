@@ -9,6 +9,14 @@ import YoutubeVideo from './YoutubeVideo';
  * @prop An image or youtube object to put in the slideshow - required
  */
 
+const propTypes = {
+    type: PropTypes.string.isRequired,
+    style: PropTypes.object.isRequired,
+};
+const defaultProps = {
+    image: null,
+    video: '',
+};
 class SlideshowItem extends Component {
     constructor(props) {
         super(props);
@@ -40,13 +48,7 @@ class SlideshowItem extends Component {
     }
 }
 
-SlideshowItem.propTypes = {
-    type: PropTypes.string.isRequired,
-    style: PropTypes.object.isRequired,
-}
-SlideshowItem.defaultProps = {
-    image: null,
-    video: '',
-}
+SlideshowItem.propTypes = propTypes;
+SlideshowItem.defaultProps = defaultProps;
 
 export default SlideshowItem;

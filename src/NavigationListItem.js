@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+const propTypes = {
+    name: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+};
+
 class NavigationListItem extends Component {
     render() {
         const navigationListItemStyling = {
@@ -30,9 +35,6 @@ class NavigationListItem extends Component {
     }
 }
 
-NavigationListItem.propTypes = {
-    name: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-}
+NavigationListItem.propTypes = propTypes;
 
 export default NavigationListItem;

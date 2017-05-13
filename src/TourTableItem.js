@@ -5,6 +5,16 @@ import fbicon from '../img/fb.jpg';
 /**
  * An item in one of the Tour tables
  */
+const propTypes = {
+    date: PropTypes.string.isRequired,
+    place: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+};
+
+const defaultProps = {
+    event: '',
+};
+
 class TourTableItem extends Component {
     constructor(props) {
         super(props);
@@ -82,14 +92,7 @@ class TourTableItem extends Component {
     }
 }
 
-TourTableItem.propTypes = {
-    date: PropTypes.string.isRequired,
-    place: PropTypes.string.isRequired,
-    city: PropTypes.string.isRequired,
-}
-
-TourTableItem.defaultProps = {
-    event: '',
-}
+TourTableItem.propTypes = propTypes;
+TourTableItem.defaultProps = defaultProps;
 
 export default TourTableItem;

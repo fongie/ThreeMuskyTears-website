@@ -5,11 +5,11 @@ import emailicon from '../img/email.png';
 
 class Footer extends Component {
     render() {
-        var footerStyling = {
+        const footerStyling = {
             fontSize: '0.8em',
             textAlign: 'center',
         }
-        var socialIconStyling = {
+        const socialIconStyling = {
             display: 'inline-block',
             maxWidth: 25,
             paddingTop: 5,

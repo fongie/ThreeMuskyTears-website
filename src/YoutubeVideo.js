@@ -6,6 +6,11 @@ import PropTypes from 'prop-types';
  *  This was adapted from code fetched at https://www.sitepoint.com/quick-tip-video-player-component-react/
  * @props video The ID of the video on youtube. Required
  */
+
+const propTypes = {
+    video: PropTypes.string.isRequired
+};
+
 class YoutubeVideo extends Component {
     constructor(props) {
         super(props);
@@ -40,7 +45,6 @@ class YoutubeVideo extends Component {
     }
 }
 
-YoutubeVideo.propTypes = {
-    video: PropTypes.string.isRequired
-};
+YoutubeVideo.propTypes = propTypes;
+
 export default YoutubeVideo;

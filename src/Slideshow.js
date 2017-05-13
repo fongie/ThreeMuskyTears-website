@@ -8,6 +8,16 @@ import SlideshowItem from './SlideshowItem';
  * @props objects The object, listing the items to be rendered with their respective props
  */
 
+const propTypes = {
+    type: PropTypes.string.isRequired,
+    objects: PropTypes.object.isRequired,
+};
+
+const defaultProps = {
+    link: '',
+    style: null,
+};
+
 class Slideshow extends Component {
     constructor(props) {
         super(props);
@@ -102,14 +112,8 @@ class Slideshow extends Component {
     }
 }
 
-Slideshow.propTypes = {
-    type: PropTypes.string.isRequired,
-    objects: PropTypes.object.isRequired,
-}
+Slideshow.propTypes = propTypes;
 
-Slideshow.defaultProps = {
-    link: '',
-    style: null,
-}
+Slideshow.defaultProps = defaultProps;
 
 export default Slideshow;

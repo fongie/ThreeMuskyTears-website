@@ -1,15 +1,17 @@
 
 <?php
+header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$pdo = new pdo("mysql:host=localhost;dbname=onvmlend_threemuskytears;charset=utf8mb4", "user", "pass");
+$pdo = new pdo("mysql:host=localhost;dbname=onvmlend_threemuskytears;charset=utf8mb4", "onvmlend_tmt", "Moose1234");
 
 $query = 'SELECT 
             DATE_FORMAT(date, "%e/%c %Y") AS date, 
             place, 
             city, 
             event 
-        FROM tourItems';
+        FROM tourItems
+        WHERE tourItems.date < NOW()';
 
 $tour_array=array();
 foreach($pdo->query($query) as $row) {

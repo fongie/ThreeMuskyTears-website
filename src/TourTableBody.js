@@ -47,6 +47,7 @@ class TourTableBody extends Component {
                     place={gig.place} 
                     city={gig.city} 
                     event={gig.event} 
+                    key={gig.date}
                 />
             );
         })

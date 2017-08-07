@@ -2,7 +2,7 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-$pdo = new pdo("mysql:host=localhost;dbname=onvmlend_threemuskytears;charset=utf8mb4", "root", "papegoja");
+$pdo = new pdo("mysql:host=localhost;dbname=onvmlend_threemuskytears;charset=utf8mb4", "user", "pass");
 
 $query = 'SELECT 
             DATE_FORMAT(date, "%e/%c %Y") AS date, 

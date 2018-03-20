@@ -1,3 +1,3 @@
-This is the website for the band Three Musky Tears, based in Stockholm, Sweden (threemuskytears.se)
+# Three Musky Tears website
 
-This is also the first website I (Max Körlinge) ever made.
+This is a simple static website built on React (for learning purposes), for the band Three Musky Tears, based in Stockholm, Sweden (threemuskytears.se)

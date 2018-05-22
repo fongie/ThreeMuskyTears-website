@@ -1,4 +1,4 @@
-USE onvmlend_threemuskytears;
+USE maxk_tmt;
 
 CREATE TABLE tourItems (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -98,7 +98,7 @@ VALUES
         '2017-06-04',
         'Base 10',
         'Uppsala',
-        NULL
+        'https://www.facebook.com/events/383014042093433/'
     ),
     (
         '2017-07-29',
@@ -117,5 +117,11 @@ VALUES
         'Gamleby',
         'Gamleby',
         NULL
-    )
+    ),
+	(
+		'2017-11-30',
+		'Clarion Hotel Sign',
+		'Stockholm',
+		NULL
+	)
     ;

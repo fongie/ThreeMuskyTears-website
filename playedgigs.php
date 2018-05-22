@@ -3,7 +3,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
 
-$pdo = new pdo("mysql:host=localhost;dbname=onvmlend_threemuskytears;charset=utf8mb4", "onvmlend_tmt", "Moose1234");
+$pdo = new pdo("mysql:host=localhost;dbname=maxk_tmt;charset=utf8mb4", "maxk_tmt", "Moose1234");
 
 $query = 'SELECT 
             DATE_FORMAT(date, "%e/%c %Y") AS date, 

@@ -10,7 +10,7 @@ class Tour extends Component {
         };
     }
     componentDidMount() {
-        fetch('http://localhost/upcominggigs.php')
+        fetch('http://threemuskytears.se/upcominggigs.php')
             .then(
                 (result) => result.json()
             )
@@ -22,7 +22,7 @@ class Tour extends Component {
                     }
                 );
             });
-        fetch('http://localhost/playedgigs.php')
+        fetch('http://threemuskytears.se/playedgigs.php')
             .then(
                 (result) => result.json()
             )

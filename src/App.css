@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Short+Stack');
+
+/* Used as general styling for links */
+a, a:visited {
+	color: #434343;
+}
+
+a.selected, a:hover {
+	color: #808080;
+}
+
+/* Used in TourTableBody.js */
+tr:nth-child(odd) {
+    background-color: #bfe2d0;
+}
+
+tr:nth-child(even) {
+    background-color: #b8d2d0;
+}
+
+/* Used in SlideshowItem.js */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}

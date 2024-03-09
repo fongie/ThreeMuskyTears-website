@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import fbicon from '../img/fb.jpg';
+import fbicon from './img/fb.jpg';
 
 /**
  * An item in one of the Tour tables

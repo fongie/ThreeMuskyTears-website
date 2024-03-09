@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Slideshow from './Slideshow';
-import posterBorgen from '../img/poster_borgen.jpg';
-import posterKings from '../img/poster_kings.jpg';
-import posterCosteau from '../img/costeau.jpg';
-import posterPsb from '../img/psb.jpg';
+import posterBorgen from './img/poster_borgen.jpg';
+import posterKings from './img/poster_kings.jpg';
+import posterCosteau from './img/costeau.jpg';
+import posterPsb from './img/psb.jpg';
+import posterKulturnatt from './img/kulturnatt.jpg';
 
 class Media extends Component {
 
@@ -27,13 +28,17 @@ class Media extends Component {
                     style: {width:'100%'}
                 },
                 {
+                    image: posterKulturnatt,
+                    style: {width:'100%'}
+                },
+                {
                     image: posterKings,
                     style: {width: '50%'}
                 },
                 {
                     image: posterCosteau,
                     style: {width:'100%',paddingTop:'15%',paddingBottom:'18%'}
-                }
+                },
             ],
             youtubeVideos: [
                 {

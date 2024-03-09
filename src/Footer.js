@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import CopyrightLink from './CopyrightLink';
-import fbicon from '../img/fb.jpg';
-import emailicon from '../img/email.png';
+import fbicon from './img/facebook-squared.svg';
+import instaicon from './img/instagram-fill.svg';
+import emailicon from './img/email.png';
 
 class Footer extends Component {
     render() {
@@ -22,6 +23,13 @@ class Footer extends Component {
         }
         return (
             <div style={footerStyling}>
+                <a href="https://www.instagram.com/threemuskytears_/">
+                    <img 
+                        src={instaicon} 
+                        alt="instagram-icon" 
+                        style={socialIconStyling}
+                    />
+                </a>
                 <a href="https://www.facebook.com/threemuskytears/">
                     <img 
                         src={fbicon} 

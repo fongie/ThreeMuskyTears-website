@@ -1,4 +1,4 @@
-import qs from 'query-string';
+import qs from 'querystring-es3';
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
@@ -21,11 +21,7 @@ class YoutubeVideo extends Component {
     }
 
     getIdFromVideoString (vString) {
-        const urlArr = vString.split('/');
-        const idString = urlArr[urlArr.length - 1];
-        const queryParams = qs.extract(vString);
-
-        return (queryParams && qs.parse(queryParams).v) || idString || '';
+        return vString;
     }
 
     render() {

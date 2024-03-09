@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import musketeer from '../img/musketeer.jpg';
+import musketeer from './img/musketeer.jpg';
 
 class Home extends Component {
     render() {

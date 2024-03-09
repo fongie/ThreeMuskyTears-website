@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import TourTableBody from './TourTableBody';
 
 const gigs = [
-    {
-        date: '2022-07-15',
-        place: 'The streets',
-        city: 'Stockholm',
-        event: ''
-    }
 ]
 
 const playedGigs = [
@@ -130,7 +124,19 @@ const playedGigs = [
 		place: 'Utomhusscenen',
 		city: 'Uppsala',
 		event: ''
-	 }
+	 },
+    {
+        date: '2022-07-15',
+        place: 'The streets',
+        city: 'Stockholm',
+        event: ''
+    },
+	{ 
+		date: '2023-09-09',
+		place: 'Kulturnatten',
+		city: 'Uppsala',
+		event: ''
+	 },
 ]
 
 class Tour extends Component {

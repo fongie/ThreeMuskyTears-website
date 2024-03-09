@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../img/TMTlogomktmindre.png';
+import logo from './img/TMTlogomktmindre.png';
 import { Link } from 'react-router-dom';
 
 class Logo extends Component {

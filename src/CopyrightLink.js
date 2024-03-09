@@ -9,7 +9,7 @@ class CopyrightLink extends Component {
                     style={{textDecoration: 'none'}} 
                     href="http://maxk.se"
                 >
-                    2022 Max Körlinge
+                    2024 Max Körlinge
                 </a>
             </p>
 

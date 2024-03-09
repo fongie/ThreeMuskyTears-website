@@ -20,7 +20,7 @@ class AboutBox extends Component {
                     <p />Bandet består av tre medlemmar på gitarr, munspel, cajon, och sång, och kan spela såväl amplifierat som hel-akustiskt, beroende på behov och önskemål.
                     <p />Three Musky Tears har erfarenhet av många typer av spelningar och tar gärna emot bokningar av alla dess slag, vare sig det är festivalgig på stor scen, mindre akustiska spelningar på gatan eller för att underhålla på företagsfesten.
                     <p><b>Spelglädje och röj garanteras!</b></p>
-                    <p />Kontakta oss via facebook eller email, se nedan.
+                    <p />Kontakta oss via instagram, facebook eller email, se nedan.
                 </div>
             </div>
         );

@@ -29,7 +29,7 @@ class Footer extends Component {
                         style={socialIconStyling}
                     />
                 </a>
-                <a href="mailto:info@threemuskytears.se">
+                <a href="mailto:mkorlinge@hotmail.com">
                     <img 
                         src={emailicon} 
                         alt="email-icon" 

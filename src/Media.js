@@ -3,6 +3,7 @@ import Slideshow from './Slideshow';
 import posterBorgen from '../img/poster_borgen.jpg';
 import posterKings from '../img/poster_kings.jpg';
 import posterCosteau from '../img/costeau.jpg';
+import posterPsb from '../img/psb.jpg';
 
 class Media extends Component {
 
@@ -18,6 +19,10 @@ class Media extends Component {
             mediaStyling,
             slideshowImages: [
                 {
+                    image: posterPsb,
+                    style: {width:'50%'}
+                },
+                {
                     image: posterBorgen,
                     style: {width:'100%'}
                 },
@@ -31,6 +36,9 @@ class Media extends Component {
                 }
             ],
             youtubeVideos: [
+                {
+                    link: 'ygauhmh0d6c',
+                },
                 {
                     link: 'Zfw0LlX3XpM',
                 },
